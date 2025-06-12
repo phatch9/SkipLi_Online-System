@@ -1,15 +1,17 @@
+import { initializeApp } from "firebase/app";
 const firebase = require("firebase/app");
     require("firebase/firestore");
 
-var firebaseConfig = { 
-    apiKey: "",
-    authoDomain: "",
-    databaseURL: " ",
-    projectID: " ",
-    storageBucket: " ",
-    essagingSenderId: "263674965539",
-    appId: "1:263674965539:web:e2c62a8059e19ea4a28b96",
-}
+const firebaseConfig = {
+  apiKey: "AIzaSyAwIijK9IvXQ4cpMnrjaWsvfUtGLbDuErM",
+  authDomain: "skipli-system.firebaseapp.com",
+  projectId: "skipli-system",
+  storageBucket: "skipli-system.firebasestorage.app",
+  messagingSenderId: "228928454132",
+  appId: "1:228928454132:web:24e0b8166521aa1d5e4da1",
+  measurementId: "G-JD600VS0TH"
+};
+
 
 // -- Initialize Firebase 
 
