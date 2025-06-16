@@ -4,7 +4,7 @@ let sendPhoneNumber = async (phoneNumber) => {
         return await axios.post("http://localhost:8000/newAccessCode", {
         phoneNumber,
         });
-    }  
+    }
         catch (e) {
             throw new Error(e.message);
         }
